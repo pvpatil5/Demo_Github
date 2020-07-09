@@ -1,16 +1,18 @@
 package pac1;
 
-public class Sample2 {
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) 
+public class Sample2 {
+	@Test
+	public  void add()
 	{
-	
+
 		int a = 5;
 		int b = 10;
-		
+
 		System.out.println("Ans="+ (a+b));
-		
-		
+
+
 	}
 
 }

@@ -1,18 +1,23 @@
 package pac1;
 
+import org.testng.annotations.Test;
+
 public class Sample1 {
 
-	public static void main(String[] args)
+
+	@Test
+	public void reverse()
 	{
 		String s1= "Selenium";
-		
+		String s2 = "";
+
 		char c[] = s1.toCharArray();
 
 		for (int i = c.length-1; i >=0; i--) 
 		{
-			System.out.print(c[i]);
+			s2= s2+c[i];
 		}
-
+		System.out.println(s2);
 	}
 
 }
